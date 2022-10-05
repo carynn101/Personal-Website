@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta charset="utf-8">
+        <script src="./index.html"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Personal Website</title>
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+              <!-- Your menu or Off-canvas content goes here -->
+              <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+               <!-- Close button -->
+                  <button class="close-button" aria-label="Close menu" type="button" data-close>
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  <!-- Menu -->
+                  <ul class="vertical menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./resume.html">Professional Experiences</a></li>
+                        <li><a href="./projects.html">My Projects</a></li>
+                        <li><a href="./fun.html">Fun Facts</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class= "show-for-large">
+            <!-- main content within a `grid-container` -->
+                <div class="grid-container">
+                    <!-- `grid-x` represents a row -->
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./index.html">Main</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./resume.html">Resume</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./projects.html">Projects</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./fun.html">Fun</a></div>
+                    </div>
+                </div>
+            </div>
+
+        <nav>
+        </nav>
+        <div class="grid-container">
+<!-- <div class="grid-x grid-padding-x">
+<div class ="cell small-12 large-6">-->
+
+    <div class = "off-canvas-content" data-off-canvas-content>
+        <div class="grid-container">
+            <div class="box">
+            <img src="home_page_img.jpg" alt="profile picture" class="box-img">
+            <h1>Carynn Vuong</h1>
+            <h5>Student | Rising Software Engineer | Lifelong Learner</h5>
+            <p>My name is Carynn and I am a senior studying Data Analytics and Information Systems at the University of St Thomas. 
+            </p>
+            <p>
+                I am originally from San Francisco and have been living in Minnesota for about a decade. I plan to move back to the Bay Area after graduation.
+            </p>
+            <p>
+                I'm very involved on campus and in my community having had numerous experiences in leadership, professional development, outreach, and technical roles both in and outside the classroom.
+            </p>
+        
+        </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+</div>
+    <!-- include before closing <body> tag -->
+        <script src="js/vendor.js"></script>
+        <script src="js/foundation.js"></script>
+        <script type="application/javascript">
+            $(document).foundation();
+        </script>
+    </body>  
+</html>

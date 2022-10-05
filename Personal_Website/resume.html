@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta charset="utf-8">
+        <script src="./resume.html"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Personal Website</title>
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="resume.css">
+    </head>
+    <body>
+        <div class="off-canvas-wrapper hide-for-large">
+            <div class="grid-x grid-padding-x">
+                  <button type="button" class="menu-icon" data-toggle="offCanvas"></button>    
+            </div>    
+              <!-- Your menu or Off-canvas content goes here -->
+              <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+               <!-- Close button -->
+                  <button class="close-button" aria-label="Close menu" type="button" data-close>
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  <!-- Menu -->
+                  <ul class="vertical menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./resume.html">Professional Experiences</a></li>
+                        <li><a href="./projects.html">My Projects</a></li>
+                        <li><a href="./fun.html">Fun Facts</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class= "show-for-large">
+            <!-- main content within a `grid-container` -->
+                <div class="grid-container">
+                    <!-- `grid-x` represents a row -->
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./index.html">Main</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./resume.html">Resume</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./projects.html">Projects</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./fun.html">Fun</a></div>
+                    </div>
+                </div>
+            </div>
+
+<div class="box">
+    <img src="resume_page_img.jpg" alt="profile picture" class="box-img">
+    <h1>My Resume</h1>
+    <h2>Work Experience</h2>
+    <h3 class="allheaders">Target Corporation | Intern, Software Engineering | Jun 2022 - Aug 2022</h3>
+    <ul>
+        <li>
+            Developed a cron job in a Micronaut project to detect stale server groups using an Influx metric and built an alert panel in Grafana
+        </li>
+        <li>
+            Developed a UI feature to visualize stockroom locations on an SVG map using Javascript, HTML and Jquery
+        </li>
+        <li>
+            Learned best engineering practices using Git, Docker and Vela as part of the continuous integration and continuous delivery/deployment 
+        to contribute to team pipeline
+        </li>
+    </ul>
+    <h4 class="allheaders">US Bank | Intern, Software Development | Jun 2021 - Aug 2021</h4>
+    <p>
+        I worked on the assessment study for U.S. Bank's API development practice, learning microservice engineering, Java, and developing a microservice with GQL. 
+        <p>
+            High level responsibilities included:
+        </p>
+        
+    </p>
+    <ul>
+        <li>
+            Create an assessment study on API Development practice and compare with industry
+        </li>
+        <li>
+            Prepare a score card on company practice
+        </li>
+        <li>
+            Create and execute Intern case competition pitch to provide the Bank with new ideas to compete with FinTech industry
+        </li>
+        <li>
+            Develop API based on needs of ongoing platform consolidation project
+        </li>
+    </ul>
+        
+    <h5 class="allheaders">Be The Match | Intern, Application/IT/UX Development | Sept 2020 - May 2021</h5>
+    <ul>
+        <li>
+            I personalized user content for bone marrow candidates by recruiting, engaging, and enriching their registration process in order for them to join the registry as a donor
+        </li>
+        <li>
+            Used Salesforce Marketing Cloud in various business units (online registration, sandbox, nmdp) to create and manage the life cycle of candidates
+        </li>
+        <li>
+            Built SQL Queries to automate new user join data for UAT to validate production releases and Ampscript for editing code
+        </li>
+    </ul>
+    <h2>Education</h2>
+    <h3><a href="https://stthomas.edu/"target="_blank">University of St Thomas</a></h3>
+    <p class="educationp">
+        Sept 2019 - May 2023
+    </p>
+    <ul>
+        <li>
+            Bachelor of Science in Data Analytics and Information Systems, Minor in Computer Science & Applied Statistics
+        </li>
+        <li>
+            Dean's List Fall 2020
+        </li>
+    </ul>
+
+    <h2>Honors/Awards</h2>
+    <ul>
+        <li>
+            vGHC Scholarship Recipient '21, '22
+        </li>
+        <li>
+            Wallin Think IT Scholar 2021
+        </li>
+        <li>
+            Emerging Leader Honor Award DECA INC | May 2019
+        </li>
+    </ul>
+</div>
+    <!-- include before closing <body> tag -->
+        <script src="js/vendor.js"></script>
+        <script src="js/foundation.js"></script>
+        <script type="application/javascript">
+            $(document).foundation();
+        </script>
+    </body>  
+</html>
