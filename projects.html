@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta charset="utf-8">
+        <script src="./projects.html"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Personal Website</title>
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="projects.css">
+    </head>
+    <body>
+        <div class="off-canvas-wrapper hide-for-large">
+            <div class="grid-x grid-padding-x">
+                  <button type="button" class="menu-icon" data-toggle="offCanvas"></button>    
+            </div>    
+              <!-- Your menu or Off-canvas content goes here -->
+              <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+               <!-- Close button -->
+                  <button class="close-button" aria-label="Close menu" type="button" data-close>
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  <!-- Menu -->
+                  <ul class="vertical menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./resume.html">Professional Experiences</a></li>
+                        <li><a href="./projects.html">My Projects</a></li>
+                        <li><a href="./fun.html">Fun Facts</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class= "show-for-large">
+            <!-- main content within a `grid-container` -->
+                <div class="grid-container">
+                    <!-- `grid-x` represents a row -->
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./index.html">Main</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./resume.html">Resume</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./projects.html">Projects</a></div>
+                        <div class="cell large-3" style="background-color: #233342;"><a href="./fun.html">Fun</a></div>
+                    </div>
+                </div>
+            </div>
+
+<div class="box">
+    <img src="home_page_img.jpg" alt="profile picture" class="box-img">
+    <h1>My Projects</h1>
+    <h2>Blackjack Game (Java FX)</h2>
+    <img src="slpdemo.png" ALIGN="right" alt="game demo pic" class="projects-img">
+    <p>
+        Created a Blackjack game using JavaFX with the sheCodes club at Cal Poly Pomona 
+        during the semester long project (SLP) program in Fall 2020.
+    </p>
+    <br>
+    <br>
+
+    <h2>Mobile Textbook Matching app (Flutter)</h2>
+    <img src="flutter.png" ALIGN="right" alt="flutter app pic" class="projects-img">
+    <p>
+        Created an andriod application using Flutter and Dart with the sheCodes club at Cal Poly Pomona 
+        during the semester long project (SLP) program in Fall 2021.
+    </p>
+
+</br>
+
+    <h2>Hack The Gap Competition (Bubble.io)</h2>
+    <p>
+        Hack The Gap is a four week program where students are assigned into groups to create a technical solution for the local business they are assigned to.
+        My group worked on improving ShinAfric's website.
+        <img src="hackthegap.png" ALIGN="right" alt="HTC pic" class="projects-img">
+        <a href="https://youtu.be/lt0Jp9xbTzY"target="_blank">Demo</a>
+    </p>
+</div>
+    <!-- include before closing <body> tag -->
+        <script src="js/vendor.js"></script>
+        <script src="js/foundation.js"></script>
+        <script type="application/javascript">
+            $(document).foundation();
+        </script>
+    </body>  
+</html>
